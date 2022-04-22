@@ -2,11 +2,11 @@ package main
 
 
 import (
-	"fmt"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/utils"
 )
 // fmt.Println("Hello, World!") => with JavaScript; console.log("Hello, World!")
+// -> If you use this; import the "fmt" in import ()
 
 func main() {
 	app := fiber.New(fiber.Config{
